@@ -30,10 +30,10 @@
     margin: 0 auto;
   }
 
-  img {
+  /* img {
     height: 16rem;
     width: 16rem;
-  }
+  } */
 
   h1 {
     color: #ff3e00;
