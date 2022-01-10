@@ -23,6 +23,42 @@
       id: "c70f3058-0c5a-4f48-a48b-1c760434bdb1",
       title: "Colors are fun",
     },
+    {
+      id: "5793ff5f-1c0f-4783-b7e8-c0e6b34d8afc",
+      title: "We all know a clownfish",
+    },
+    {
+      id: "a5e27342-7be7-4e4e-a0bd-a4da13135a4b",
+      title: "Coral variations 1",
+    },
+    {
+      id: "15cad711-9464-4cfe-bca0-48a4855c37f1",
+      title: "Pufferfish in the center",
+    },
+    {
+      id: "211d2ea7-0b03-40a9-ba5d-9d1667c40820",
+      title: "Coral variations 2",
+    },
+    {
+      id: "a5620dbc-5de3-4882-813e-5fbd53f74a51",
+      title: "Coral variations 3",
+    },
+    {
+      id: "dd74a520-7bc5-4934-91f7-06f478501c15",
+      title: "Morays don't play fair",
+    },
+    {
+      id: "7d8b1d04-3d2b-4eba-badf-ed3072d22ce2",
+      title: "Coral variations 4",
+    },
+    {
+      id: "325ddbe7-d399-49e2-972b-81748ea4ed96",
+      title: "Coral variations 5",
+    },
+    {
+      id: "b56c9e80-910d-4b28-9a92-2af4e88020fc",
+      title: "Seahorse 1",
+    },
   ];
   $: pic = 0;
   $: img = {
