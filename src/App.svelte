@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Counter from "./lib/Counter.svelte";
   import MainCard from "./lib/MainCard.svelte";
+  import Image from "./lib/Image.svelte";
 
   const photos = [
     {
@@ -41,7 +41,7 @@
     <h3 class="title">{img.alt}</h3>
   </div>
   <MainCard>
-    <img src={img.src} alt={img.alt} />
+    <Image {img} />
   </MainCard>
 </div>
 
@@ -64,33 +64,13 @@
   :root 
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif
     background-color: #c5decd
-
-  // main 
-  //   text-align: center
-  //   padding: 1em
-  //   margin: 0 auto
-
-  // h1 
-  //   color: #ff3e00
-  //   text-transform: uppercase
-  //   font-size: 4rem
-  //   font-weight: 100
-  //   line-height: 1.1
-  //   margin: 2rem auto
-  //   max-width: 14rem
-  
-
   p 
     max-width: 14rem
     margin: 1rem auto
     line-height: 1.35
   
 
-  @media (min-width: 480px) 
-    // h1 
-    //   max-width: none
-    
-
+  @media (min-width: 480px)     
     p 
       max-width: none
 </style>
