@@ -1,6 +1,6 @@
 <script>
-  export let icon = null; // Optional icon URL or SVG path
-  export let label = ""; // Button label text
+  export let icon = null;
+  export let label = "";
 </script>
 
 <button class="button">
