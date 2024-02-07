@@ -1,4 +1,4 @@
-export const photos = [
+export const images = [
   {
     id: "9160f315-387c-4cda-b67c-474f343afc36",
     title: "Colors are fun 2",
@@ -83,4 +83,17 @@ export const photos = [
     id: "4841b93f-7063-4832-b925-82796041301f",
     title: "Seahorses hiding in reef",
   },
+  {
+    id: "02b51597-51cb-47e9-89dc-102f4e85d43d",
+    title: "We created war",
+  },
+  {
+    id: "ef2a1eff-ef92-4072-873e-991f13f1b23b",
+    title: "We created war",
+  },
+  {
+    id: "8eada1ec-7c46-4e3a-bf71-a3532e62f8da",
+    title: "We created war",
+  },
+
 ];
