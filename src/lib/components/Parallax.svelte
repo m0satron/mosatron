@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
 
-  export let speed = 0.5; // Control the speed of the foreground text movement
-  export let imageURL = ""; // Background image URL passed as a prop
-  export let height = "50vh"; // Height of the parallax container
+  export let speed = 0.5;
+  export let imageURL = "";
+  export let height = "50vh";
   let yPos = 0;
 
   const updatePosition = () => {
@@ -39,10 +39,10 @@
 
   .text-content {
     position: absolute;
-    right: 2%;
+    right: 1rem;
     width: fit-content;
-    height: 60%;
-    margin-top: 7vh;
+    height: 83%;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,5 +55,20 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     will-change: transform;
     transform: translate3d(0, calc(var(--yPos) * 1px), 0);
+  }
+
+  @media (max-width: 768px) {
+    .text-content {
+      position: absolute;
+      right: 1rem;
+      bottom: 1rem;
+      left: 1rem;
+      width: auto;
+      height: auto; /* Adjust height automatically */
+      margin-top: 0;
+      justify-content: flex-start; /* Align content to the top */
+      padding: 1rem 0; /* Adjust padding */
+      flex-direction: column-reverse; /* Flip direction to put the title on top */
+    }
   }
 </style>
