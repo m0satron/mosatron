@@ -41,7 +41,7 @@
     position: absolute;
     right: 1rem;
     width: fit-content;
-    height: 83%;
+    height: 80%;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
