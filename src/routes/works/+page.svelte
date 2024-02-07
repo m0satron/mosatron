@@ -34,7 +34,8 @@
 <div class="thumnail-container">
   {#each images as img}
     <ThumbNail
-      src={`${cdnUrl}/${img.id}/-/resize/200x/`}
+      class="thumbnail-item"
+      src={`${cdnUrl}/${img.id}/-/resize/400x/`}
       on:click={() => selectImage(img)}
     />
   {/each}
@@ -45,7 +46,14 @@
 <style lang="scss">
   .thumnail-container {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 </style>
