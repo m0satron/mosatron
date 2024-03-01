@@ -5,6 +5,7 @@
   export let content = "";
 
   export let isOpen = false;
+  export let isLoading = true;
 
   function closeDialog() {
     isOpen = false;
@@ -42,13 +43,13 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(4px); /* Blurs the background content */
+    backdrop-filter: blur(4px);
   }
   .dialog-content {
     width: fit-content;
     height: auto;
-    position: relative; /* Ensures content is on top of the backdrop */
+    position: relative;
     background: transparent;
-    z-index: 2; /* Make sure dialog content is above the backdrop */
+    z-index: 2;
   }
 </style>

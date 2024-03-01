@@ -1,12 +1,14 @@
 <nav class="navbar">
-  <div class="navbar-brand">
-    <a href="/"> MOSA MAZROUI-SEBDANI </a>
+  <div class="navbar-content">
+    <div class="navbar-brand">
+      <a href="/"> MOSA SEBDANI </a>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="about" class="navbar-item">about</a></li>
+      <li><a href="works" class="navbar-item">works</a></li>
+      <li><a href="contact" class="navbar-item">contact</a></li>
+    </ul>
   </div>
-  <ul class="navbar-menu">
-    <li><a href="about" class="navbar-item">about</a></li>
-    <li><a href="works" class="navbar-item">works</a></li>
-    <li><a href="contact" class="navbar-item">contact</a></li>
-  </ul>
 </nav>
 
 <style lang="scss">
@@ -15,7 +17,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: fit-content;
+    width: 100%;
+  }
+
+  .navbar-content {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .navbar-brand {

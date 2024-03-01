@@ -60,10 +60,6 @@ export const images = [
     title: "Flashy things are nice too",
   },
   {
-    id: "2dce63fe-318b-4582-84a7-d2c63e656f18",
-    title: "Flashy things are nice too",
-  },
-  {
     id: "1151e732-8703-4b58-a692-42ae64d084ff",
     title: "Pearl variations 2",
   },
@@ -84,16 +80,48 @@ export const images = [
     title: "Seahorses hiding in reef",
   },
   {
+    id: "bf71f7c7-e99f-4262-8497-c86c2111e150",
+    title: "Untitled",
+  },
+  {
+    id: "43e33413-4ea8-4942-950c-f67a3ef9cabf",
+    title: "The Other Kingdom 08",
+  },
+  {
+    id: "44e4a370-dffd-4740-a018-bc38d9af4082",
+    title: "Valley mushrooms",
+  },
+  {
+    id: "9e12891a-6944-41a1-a08c-ad556f990390",
+    title: "Puffhsroom",
+  },
+  {
+    id: "ed701bd9-514d-4e78-a86d-ef48bac6d937",
+    title: "Devils tooth",
+  },
+  {
+    id: "b5267a37-fe61-4497-ab1d-ff80b48059e6",
+    title: "Cycles",
+  },
+  {
+    id: "4c2b1a39-fd61-48c3-bfb9-a29dbfcbb514",
+    title: "Cycles 2",
+  },
+  {
+    id: "ccbeb611-4b48-4829-90fa-51abd8902751",
+    title: "The fallen trees",
+  },
+  {
     id: "02b51597-51cb-47e9-89dc-102f4e85d43d",
-    title: "We created war",
+    title: "We created war 1",
   },
   {
     id: "ef2a1eff-ef92-4072-873e-991f13f1b23b",
-    title: "We created war",
+    title: "We created war 2",
   },
   {
     id: "8eada1ec-7c46-4e3a-bf71-a3532e62f8da",
-    title: "We created war",
+    title: "We created war 3",
   },
 
 ];

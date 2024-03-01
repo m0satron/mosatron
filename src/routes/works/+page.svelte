@@ -25,7 +25,7 @@
   function selectImage(image: Partial<Image>) {
     selectedImage = {
       ...image,
-      image: `${cdnUrl}/${image.id}/-/resize/400x/`,
+      image: `${cdnUrl}/${image.id}/-/resize/600x/`,
     };
     showDialog();
   }

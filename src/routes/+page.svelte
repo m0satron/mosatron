@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Card from "$lib/components/Card.svelte";
   import Button from "$lib/components/Button.svelte";
   import Parallax from "$lib/components/Parallax.svelte";
   import { images } from "$lib/images.js";
