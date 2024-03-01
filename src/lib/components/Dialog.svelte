@@ -5,7 +5,7 @@
   export let content = "";
 
   export let isOpen = false;
-  export let isLoading = true; // Track loading state of the image
+  export let isLoading = true;
 
   function closeDialog() {
     isOpen = false;
